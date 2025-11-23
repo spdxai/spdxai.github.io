@@ -6,6 +6,8 @@ site_url: https://spdx-ai.github.io/spdx-ai/
 repo_url: https://github.com/spdx-ai/spdx-ai
 repo_name: spdx-ai/spdx-ai
 
+use_directory_urls: true
+
 theme:
   name: material
   palette:
@@ -24,13 +26,15 @@ theme:
         icon: material/brightness-4
         name: Switch to light mode
   features:
+    - content.code.copy
+    - navigation.expand
+    - navigation.instant
+    - navigation.instant.progress
     - navigation.tabs
     - navigation.sections
-    - navigation.expand
     - navigation.top
-    - search.suggest
     - search.highlight
-    - content.code.copy
+    - search.suggest
 
 markdown_extensions:
   - admonition
@@ -53,6 +57,7 @@ nav:
   - contribute.md
 
 plugins:
+  - git-revision-date-localized # Use mkdocs-git-revision-date-localized-plugin
   - optimize
   - search
   - social
