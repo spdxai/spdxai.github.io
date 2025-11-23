@@ -99,13 +99,14 @@ SPDX AI and Dataset profiles can be used to comprehensively document AI systems
 and datasets, on top of the existing software component information that
 the core SPDX specification provides.
 
-Overview of an AI package, from the AI BOM in [AI Example 02][ai-ex-02]:
+Overview of an AI package, from the AI BOM in [AI Example 02][ai-ex-02]
+(click on the diagram to enlarge):
 
-![AI package overview](./img/ai-example-02-overview.png)
+[![AI package overview](./img/ai-example-02-overview.png)](./img/ai-example-02-overview.png)
 
 Details of some information categories that the AI BOM captures:
 
-![AI package zoom in](./img/ai-example-02-zoomin.png)
+[![AI package zoom in](./img/ai-example-02-zoomin.png)](./img/ai-example-02-zoomin.png)
 
 See more examples in the [Examples](./examples.md) section.
 
