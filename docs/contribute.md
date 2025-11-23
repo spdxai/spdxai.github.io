@@ -17,6 +17,7 @@ review proposals, and coordinate activities.
 All meeting minutes are publicly available for transparency and community
 engagement.
 
+- [Meeting schedule and conference call link](https://github.com/spdx/meetings/?tab=readme-ov-file#ai-and-dataset-profiles)
 - [Live meeting minutes](https://docs.google.com/document/d/1Q2a2HAV_ipbPhV6pqWWqzxYjBaTKtIW7H_CfAFF0kek/edit?tab=t.0)
 - [Archive of approved meeting minutes](https://github.com/spdx/meetings/tree/main/ai)
 
