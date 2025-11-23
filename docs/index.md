@@ -96,6 +96,7 @@ Use the tabs to switch between representations.
     ```
 
 See more examples in the [Examples](./examples.md) section.
+Want to improve this? See [Contribute](./contribute.md) section.
 
 [ai-profile]: https://spdx.github.io/spdx-spec/latest/model/AI/AI/
 [dataset-profile]: https://spdx.github.io/spdx-spec/latest/model/Dataset/Dataset/
