@@ -1,5 +1,7 @@
 site_name: SPDX AI Working Group
 site_description: Technical Working Group for AI and Dataset profiles of SPDX specification
+site_author: SPDX AI Working Group
+copyright: Copyright &copy; 2025, The Linux Foundation and its Contributors.
 site_url: https://spdx-ai.github.io/spdx-ai/
 repo_url: https://github.com/spdx-ai/spdx-ai
 repo_name: spdx-ai/spdx-ai
@@ -31,28 +33,30 @@ theme:
     - content.code.copy
 
 markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - pymdownx.details
   - pymdownx.highlight:
       anchor_linenums: true
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
-  - admonition
-  - pymdownx.details
   - pymdownx.tabbed:
       alternate_style: true
-  - attr_list
-  - md_in_html
   - tables
 
 nav:
   - Home: index.md
-  - Resources:
-    - Meeting Minutes: resources/meetings.md
-    - Examples: resources/examples.md
-    - Publications: resources/publications.md
+  - examples.md
+  - publications.md
+  - contribute.md
 
 plugins:
+  - optimize
   - search
+  - social
+  - tags
 
 extra:
   social:
@@ -60,5 +64,3 @@ extra:
       link: https://github.com/spdx-ai
     - icon: fontawesome/brands/linux
       link: https://www.linuxfoundation.org/
-
-copyright: Copyright &copy; 2024 SPDX AI Working Group

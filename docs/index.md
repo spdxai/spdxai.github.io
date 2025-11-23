@@ -1,10 +1,24 @@
+---
+SPDX-FileContributor: SPDX AI Working Group and its Contributors
+SPDX-FileType: DOCUMENTATION
+SPDX-License-Identifier: CC0-1.0
+---
+
 # SPDX AI Working Group
 
-Welcome to the **SPDX AI Working Group** website. This technical working group focuses on developing and maintaining the AI and Dataset profiles of the SPDX specification.
+![An illustration of three „pixelated“ cupboards next to each other with open drawers, the right one is black](./img/anton-grabolle-classification-cupboard.jpg)
+
+Welcome to the **SPDX AI Working Group** website.
+
+This technical working group focuses on developing and maintaining the AI and
+Dataset profiles of the System Package Data Exchange™ (SPDX®) specification.
 
 ## About
 
-The SPDX AI Working Group is dedicated to creating standards for documenting artificial intelligence systems and datasets in a standardized format. Our work enables transparency, reproducibility, and compliance in AI development through standardized Bill of Materials (BOM) practices.
+The SPDX AI Working Group is dedicated to creating standards for documenting
+artificial intelligence systems and datasets in a standardized format.
+Our work enables safety, transparency, and compliance in AI development through
+standardized Bill of Materials (BOM) practices.
 
 ## Mission
 
@@ -15,38 +29,32 @@ Our mission is to:
 - Facilitate collaboration among industry stakeholders
 - Promote best practices for AI transparency and accountability
 
-## Key Areas of Work
+## Key areas of work
 
-### AI Profile
-The AI Profile defines how to document AI/ML models, including:
+### AI profile
+
+The [AI profile][ai-profile] defines how to document AI/ML models, including:
 
 - Model architecture and parameters
 - Training data and methodologies
 - Performance metrics and evaluation
 - Dependencies and runtime requirements
 
-### Dataset Profile
-The Dataset Profile specifies how to document datasets used in AI/ML systems:
+### Dataset profile
+
+The [Dataset profile][dataset-profile] specifies how to document datasets,
+including but not limited to the usages in AI/ML systems:
 
 - Data sources and provenance
 - Data collection and processing methods
 - Data quality and statistics
 - Licensing and usage restrictions
 
-## Get Involved
-
-We welcome participation from all interested parties. Join our meetings, contribute to discussions, and help shape the future of AI transparency standards.
-
-### Quick Links
-
-- [Meeting Minutes](resources/meetings.md) - Access our regular meeting notes and recordings
-- [Examples](resources/examples.md) - View practical examples of SPDX AI and Dataset profiles
-- [Publications](resources/publications.md) - Read our whitepapers and research publications
-
-## Community
-
-The SPDX AI Working Group is part of the larger SPDX community under the Linux Foundation. We collaborate with industry leaders, researchers, and open source communities to develop practical and widely-adopted standards.
-
 ---
 
-For more information, please visit our [GitHub repository](https://github.com/spdx-ai/spdx-ai) or join our discussions.
+["Classification Cupboard"](https://betterimagesofai.org/images?artist=AntonGrabolle&title=ClassificationCupboard)
+illustration by [Anton Grabolle](https://www.instagram.com/miss.tonton/) /
+<https://betterimagesofai.org> / [Licenced by CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+
+[ai-profile]: https://spdx.github.io/spdx-spec/latest/model/AI/AI/
+[dataset-profile]: https://spdx.github.io/spdx-spec/latest/model/Dataset/Dataset/

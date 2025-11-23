@@ -1,63 +1,24 @@
+---
+SPDX-FileContributor: SPDX AI Working Group and its Contributors
+SPDX-FileType: DOCUMENTATION
+SPDX-License-Identifier: CC0-1.0
+---
+
 # SPDX AI Working Group
 
-Welcome to the SPDX AI Working Group website repository. This technical working group focuses on developing and maintaining the AI and Dataset profiles of the SPDX specification.
+The SPDX AI Working Group develops and maintains the AI and Dataset profiles of
+the System Package Data Exchange™ (SPDX®) specification.
 
-## About
+We create standards for documenting AI systems and datasets to improve
+safety, transparency, and compliance through standardized Bill of Materials
+(BOM) practices.
 
-The SPDX AI Working Group is dedicated to creating standards for documenting artificial intelligence systems and datasets in a standardized format. Our work enables transparency, reproducibility, and compliance in AI development through standardized Bill of Materials (BOM) practices.
+This repository hosts sources for the SPDX AI Working Group website,
+which contains information about our work and work in progress.
+Visit our website at: <https://spdx-ai.github.io/spdx-ai/>
 
-## Website
-
-Visit our website at: https://spdx-ai.github.io/spdx-ai/
-
-## Quick Links
-
-- [Meeting Minutes](https://github.com/spdx/meetings/tree/main/ai) - Access our regular meeting notes and recordings
-- [Examples](https://github.com/spdx/spdx-examples) - View practical examples of SPDX AI and Dataset profiles
-- [Linux Foundation AI BOM Whitepaper](https://www.linuxfoundation.org/research/ai-bom) - Read our comprehensive whitepaper
-- [arXiv Research Paper](https://arxiv.org/abs/2510.07070) - Academic publication on AI BOM
-
-## Local Development
-
-This website is built using [MkDocs](https://www.mkdocs.org/) with the [Material theme](https://squidfunk.github.io/mkdocs-material/).
-
-### Prerequisites
-
-- Python 3.8 or higher
-- pip
-
-### Setup
-
-1. Clone the repository:
-```bash
-git clone https://github.com/spdx-ai/spdx-ai.git
-cd spdx-ai
-```
-
-2. Install dependencies:
-```bash
-pip install -r requirements.txt
-```
-
-3. Run the development server:
-```bash
-mkdocs serve
-```
-
-4. Open your browser and navigate to `http://127.0.0.1:8000/spdx-ai/`
-
-### Building
-
-To build the static site:
-```bash
-mkdocs build
-```
-
-The built site will be in the `site/` directory.
-
-## Deployment
-
-The website is automatically deployed to GitHub Pages when changes are pushed to the `main` branch via GitHub Actions.
+*This is not the official SPDX website.*
+*For official SPDX information, please visit <https://spdx.dev/>.*
 
 ## Contributing
 
@@ -68,14 +29,44 @@ We welcome contributions! If you'd like to improve the website or add content:
 3. Make your changes
 4. Submit a pull request
 
+Once the pull request is merged to the `main` branch,
+the changes will be automatically deployed to the live website.
+
+## Setup the website
+
+This site uses MkDocs with the Material theme. It requires Python 3.10+.
+
+1. Clone and enter the repo:
+
+    ```bash
+    git clone https://github.com/spdx-ai/spdx-ai.git
+    cd spdx-ai
+    ```
+
+1. Install dependencies:
+
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+1. Get the website:
+
+    Start the development server:
+
+    ```bash
+    mkdocs serve
+    ```
+
+    Open `http://127.0.0.1:8000/spdx-ai/` in your browser.
+
+    Or build the static site with:
+
+    ```bash
+    mkdocs build
+    ```
+
+    The built site will be in the `site/` directory.
+
 ## License
 
 See the [LICENSE](LICENSE) file for details.
-
-## Contact
-
-For questions or to get involved:
-
-- Join our [meetings](https://github.com/spdx/meetings/tree/main/ai)
-- Visit the main [SPDX website](https://spdx.dev/)
-- Join SPDX mailing lists and community channels
