@@ -6,55 +6,98 @@ SPDX-License-Identifier: CC0-1.0
 
 # SPDX AI Working Group
 
-![An illustration of three „pixelated“ cupboards next to each other with open drawers, the right one is black](./img/anton-grabolle-classification-cupboard.jpg)
-
 Welcome to the **SPDX AI Working Group** website.
 
-This technical working group focuses on developing and maintaining the AI and
-Dataset profiles of the System Package Data Exchange™ (SPDX®) specification.
+This technical working group focuses on developing and maintaining the
+[AI][ai-profile] and [Dataset][dataset-profile] profiles of the
+[System Package Data Exchange™ (SPDX®) specification][spdx-spec].
 
-## About
+Here's a minimal example of an SPDX 3.0 AIPackage shown in
+two formats — JSON and RDF/Turtle.
+Use the tabs to switch between representations.
 
-The SPDX AI Working Group is dedicated to creating standards for documenting
-artificial intelligence systems and datasets in a standardized format.
-Our work enables safety, transparency, and compliance in AI development through
-standardized Bill of Materials (BOM) practices.
+=== "JSON"
 
-## Mission
+    ```json
+    {
+      "@context": "https://spdx.org/rdf/3.0/spdx-context.jsonld",
+      "@graph": [
+        {
+          "type": "ai_AIPackage",
+          "spdxId": "https://example.org/model-abc123",
+          "name": "sentiment-classifier",
+          "creationInfo": {
+            "type": "CreationInfo",
+            "created": "2025-01-15T10:00:00Z",
+            "createdBy": [ "https://example.org/agent/ai-team" ]
+          },
+          "software_packageVersion": "1.1.2",
+          "software_primaryPurpose": "model",
+          "software_downloadLocation": "https://github.com/example.org/model-abc/",
+          "ai_domain": [
+            "sentiment analysis",
+            "natural language processing"
+          ],
+          "ai_energyConsumption": {
+            "type": "ai_EnergyConsumption",
+            "ai_inferenceEnergyConsumption": [
+              {
+                "ai_energyQuantity": "0.0000036",
+                "ai_energyUnit": "kilowattHour",
+                "type": "ai_EnergyConsumptionDescription"
+              }
+            ]
+          },
+          "ai_hyperparameter": [
+            {
+              "type": "DictionaryEntry",
+              "key": "epoch",
+              "value": "100"
+            }
+          ],
+          "ai_metric": [
+            {
+              "type": "DictionaryEntry",
+              "key": "f1",
+              "value": "0.4669192"
+            }
+          ]
+        }
+      ]
+    }
+    ```
 
-Our mission is to:
+=== "Turtle"
 
-- Develop and maintain AI and Dataset profiles for SPDX specification
-- Create comprehensive documentation and examples
-- Facilitate collaboration among industry stakeholders
-- Promote best practices for AI transparency and accountability
+    ```turtle
+    @prefix spdx: <https://spdx.org/rdf/3.0.1/terms/Core/> .
+    @prefix spdx-sw: <https://spdx.org/rdf/3.0.1/terms/Software/> .
+    @prefix spdx-ai: <https://spdx.org/rdf/3.0.1/terms/AI/> .
+    @prefix ex: <https://example.org/> .
+    @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-## Key areas of work
+    <https://example.org/model-abc123>
+        a spdx-ai:AIPackage ;
+        spdx:spdxId "https://example.org/model-abc123" ;
+        spdx:name "sentiment-classifier" ;
+        spdx-sw:packageVersion "1.1.2" ;
+        spdx-sw:primaryPurpose "model";
+        spdx-sw:downloadLocation <https://github.com/example.org/model-abc/> ;
+        spdx-ai:domain "sentiment analysis", "natural language processing" ;
+        spdx-ai:energyConsumption [
+            a spdx-ai:EnergyConsumption ;
+            spdx-ai:inferenceEnergyConsumption [
+                a spdx-ai:EnergyConsumptionDescription ;
+                spdx-ai:energyQuantity "0.0000036"^^xsd:decimal ;
+                spdx-ai:energyUnit "kilowattHour"
+            ]
+        ] ;
+        spdx-ai:hyperparameter [ a spdx:DictionaryEntry ; spdx:key "epoch" ; spdx:value "100" ] ;
+        spdx-ai:metric [ a spdx:DictionaryEntry ; spdx:key "f1" ; spdx:value "0.4669192" ] .
+    ```
 
-### AI profile
-
-The [AI profile][ai-profile] defines how to document AI/ML models, including:
-
-- Model architecture and parameters
-- Training data and methodologies
-- Performance metrics and evaluation
-- Dependencies and runtime requirements
-
-### Dataset profile
-
-The [Dataset profile][dataset-profile] specifies how to document datasets,
-including but not limited to the usages in AI/ML systems:
-
-- Data sources and provenance
-- Data collection and processing methods
-- Data quality and statistics
-- Licensing and usage restrictions
-
----
-
-["Classification Cupboard"](https://betterimagesofai.org/images?artist=AntonGrabolle&title=ClassificationCupboard)
-illustration by [Anton Grabolle](https://www.instagram.com/miss.tonton/) /
-<https://betterimagesofai.org> / [Licenced by CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+See more examples in the [Examples](./examples.md) section.
 
 [ai-profile]: https://spdx.github.io/spdx-spec/latest/model/AI/AI/
 [dataset-profile]: https://spdx.github.io/spdx-spec/latest/model/Dataset/Dataset/
+[spdx-spec]: https://spdx.org/specifications/
