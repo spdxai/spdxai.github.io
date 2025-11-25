@@ -12,6 +12,9 @@ This technical working group focuses on developing and maintaining the
 [AI][ai-profile] and [Dataset][dataset-profile] profiles of the
 [System Package Data Exchange™ (SPDX®) specification][spdx-spec].
 
+[![SPDX 3.0 AI profile digram](./img/model-ai.png)](https://spdx.github.io/spdx-spec/v3.0/annexes/rdf-model/)
+[![SPDX 3.0 Dataset profile digram](./img/model-dataset.png)](https://spdx.github.io/spdx-spec/v3.0/annexes/rdf-model/)
+
 Here's a minimal example of an SPDX 3.0 AIPackage shown in
 two formats — JSON and RDF/Turtle.
 Use the tabs to switch between representations.
