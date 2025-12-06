@@ -6,6 +6,8 @@ SPDX-License-Identifier: CC0-1.0
 
 # SPDX AI Working Group
 
+![An illustration of three „pixelated“ cupboards next to each other with open drawers, the right one is black](./img/anton-grabolle-classification-cupboard.jpg)
+
 Welcome to the **SPDX AI Working Group** website.
 This technical working group focuses on developing and maintaining the
 [AI][ai-profile] and [Dataset][dataset-profile] profiles of the
@@ -141,3 +143,9 @@ Want to improve this? See [Contribute](./contribute.md) section.
 [dataset-profile]: https://spdx.github.io/spdx-spec/latest/model/Dataset/Dataset/
 [spdx-spec]: https://spdx.org/specifications/
 [ai-ex-02]: https://github.com/spdx/spdx-examples/tree/master/ai/example02
+
+---
+
+["Classification Cupboard"](https://betterimagesofai.org/images?artist=AntonGrabolle&title=ClassificationCupboard)
+illustration by [Anton Grabolle](https://www.instagram.com/miss.tonton/) /
+<https://betterimagesofai.org> / [Licenced by CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/)
