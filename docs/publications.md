@@ -34,7 +34,7 @@ Cite as:
 
 **Building an Open AIBOM Standard in the Wild**
 
-Gopi Krishnan Rajbahadur, Keheliya Gallaba, Elyas Rashno, Arthit Suriyawongkul, Karen Bennet, Kate Stewart, Ahmed E. Hassan. October 2025 <https://arxiv.org/abs/2510.07070> (Pre-print; Accepted for the Software Engineering in Practice (SEIP) track of IEEE/ACM International Conference on Software Engineering 2026).
+Gopi Krishnan Rajbahadur, Keheliya Gallaba, Elyas Rashno, Arthit Suriyawongkul, Karen Bennet, Kate Stewart, Ahmed E. Hassan. October 2025 <https://arxiv.org/abs/2510.07070> (Pre-print; Accepted for the [Software Engineering in Practice (SEIP) track](https://conf.researchr.org/track/icse-2026/icse-2026-software-engineering-in-practice) of IEEE/ACM International Conference on Software Engineering 2026).
 
 [Read the paper](https://arxiv.org/abs/2510.07070){ .md-button .md-button--primary }
 
