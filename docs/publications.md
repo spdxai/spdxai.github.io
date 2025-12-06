@@ -30,7 +30,11 @@ its importance for AI system transparency, security, and compliance.
 
 Cite as:
 
-Karen Bennet, Gopi Krishnan Rajbahadur, Arthit Suriyawongkul, and Kate Stewart, “Implementing AI Bill of Materials (AI BOM) with SPDX 3.0: A Comprehensive Guide to Creating AI and Dataset Bill of Materials”, The Linux Foundation, October 2024. <https://doi.org/10.70828/RNED4427>.
+> Karen Bennet, Gopi Krishnan Rajbahadur, Arthit Suriyawongkul, and Kate Stewart, “Implementing AI Bill of Materials (AI BOM) with SPDX 3.0: A Comprehensive Guide to Creating AI and Dataset Bill of Materials”, The Linux Foundation, October 2024. <https://doi.org/10.70828/RNED4427>.
+
+**Building an Open AIBOM Standard in the Wild**
+
+Gopi Krishnan Rajbahadur, Keheliya Gallaba, Elyas Rashno, Arthit Suriyawongkul, Karen Bennet, Kate Stewart, Ahmed E. Hassan. October 2025. Pre-print. <https://arxiv.org/abs/2510.07070>
 
 ## Additional resources
 
