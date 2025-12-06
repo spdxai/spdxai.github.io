@@ -18,7 +18,7 @@ This comprehensive whitepaper, published by the Linux Foundation
 on October 2024, explores the concept of AI Bill of Materials and
 its importance for AI system transparency, security, and compliance.
 
-[Read the Whitepaper](https://www.linuxfoundation.org/research/ai-bom){ .md-button .md-button--primary }
+[Read the whitepaper](https://www.linuxfoundation.org/research/ai-bom){ .md-button .md-button--primary }
 
 **Key Topics:**
 
@@ -34,29 +34,9 @@ Cite as:
 
 **Building an Open AIBOM Standard in the Wild**
 
-Gopi Krishnan Rajbahadur, Keheliya Gallaba, Elyas Rashno, Arthit Suriyawongkul, Karen Bennet, Kate Stewart, Ahmed E. Hassan. October 2025. Pre-print. <https://arxiv.org/abs/2510.07070>
+Gopi Krishnan Rajbahadur, Keheliya Gallaba, Elyas Rashno, Arthit Suriyawongkul, Karen Bennet, Kate Stewart, Ahmed E. Hassan. October 2025 <https://arxiv.org/abs/2510.07070> (Pre-print; Accepted for the Software Engineering in Practice (SEIP) track of IEEE/ACM International Conference on Software Engineering 2026).
 
-## Additional resources
-
-### Related publications
-
-Stay tuned for more publications from the SPDX AI Working Group and
-collaborating organizations:
-
-- Technical specifications and standards documents
-- Case studies from industry implementations
-- Best practice guides and tutorials
-- Community white papers and position statements
-
-### Academic research
-
-The SPDX AI Working Group welcomes academic research on topics related to:
-
-- AI transparency and explainability
-- Software Bill of Materials for AI systems
-- AI supply chain security
-- Dataset documentation and provenance
-- ML model reproducibility
+[Read the paper](https://arxiv.org/abs/2510.07070){ .md-button .md-button--primary }
 
 ## Contributing research
 
