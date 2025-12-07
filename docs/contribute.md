@@ -35,6 +35,17 @@ For more information, visit the SPDX website at <https://spdx.dev/>.
 - Mailing list: Join `spdx-ai` subgroup at <https://lists.spdx.org/g/spdx-ai>.
 - Slack: Join `#spdx-ai` channel on <https://spdx.slack.com/>.
 
+## Contributing research
+
+If you're conducting research related to SPDX AI profiles or AI BOM:
+
+1. **Share your work** - Let the community know about your research
+2. **Collaborate** - Connect with other researchers and practitioners
+3. **Present at meetings** - Share findings at working group meetings
+4. **Contribute to standards** - Help improve SPDX specifications
+
+See our [publications](./publications.md) page for key papers and resources.
+
 ---
 
 [Back to Home](./index.md){ .md-button }

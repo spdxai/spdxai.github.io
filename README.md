@@ -15,14 +15,21 @@ safety, transparency, and compliance through standardized Bill of Materials
 
 This repository hosts sources for the SPDX AI Working Group website,
 which contains information about our work and work in progress.
-Visit our website at: <https://spdx-ai.github.io/spdx-ai/>
+Visit our website at: <https://spdxai.github.io/>
 
 *This is not the official SPDX website.*
 *For official SPDX information, please visit <https://spdx.dev/>.*
 
 ## Contributing
 
-We welcome contributions! If you'd like to improve the website or add content:
+We welcome contributions!
+
+The easiest way to edit any existing page on the website,
+is to click on the "Edit this page" icon at the top right of each page.
+
+![A red arrow points to the Edit this page icon](./docs/img/edit-page.png)
+
+If you'd like to improve the website or add content:
 
 1. Fork the repository
 2. Create a new branch for your changes
@@ -39,8 +46,8 @@ This site uses MkDocs with the Material theme. It requires Python 3.10+.
 1. Clone and enter the repo:
 
     ```bash
-    git clone https://github.com/spdx-ai/spdx-ai.git
-    cd spdx-ai
+    git clone https://github.com/spdxai/spdxai.github.io.git
+    cd spdxai.github.io
     ```
 
 1. Install dependencies:
@@ -57,7 +64,7 @@ This site uses MkDocs with the Material theme. It requires Python 3.10+.
     mkdocs serve
     ```
 
-    Open `http://127.0.0.1:8000/spdx-ai/` in your browser.
+    Then open `http://127.0.0.1:8000/` in your browser.
 
     Or build the static site with:
 

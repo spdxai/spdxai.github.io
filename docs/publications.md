@@ -6,46 +6,43 @@ SPDX-License-Identifier: CC0-1.0
 
 # Publications
 
-Research and whitepapers on AI Bill of Materials (AI BOM),
-AI transparency, and related SPDX standards.
+Publications on AI Bill of Materials (AI BOM), AI transparency, and related
+SPDX and SBOM standards.
 
-## Featured publications
+## Key publications
 
-**Implementing AI Bill of Materials (AI BOM) with SPDX 3.0:**
-**A Comprehensive Guide to Creating AI and Dataset Bill of Materials.**
+Key publications from the SPDX AI Working Group:
 
-This comprehensive whitepaper, published by the Linux Foundation
-on October 2024, explores the concept of AI Bill of Materials and
-its importance for AI system transparency, security, and compliance.
+- **Implementing AI Bill of Materials (AI BOM) with SPDX 3.0:**
+  **A comprehensive guide to creating AI and Dataset bill of materials.**
 
-[Read the whitepaper](https://www.linuxfoundation.org/research/ai-bom){ .md-button .md-button--primary }
+  Explores the concept of AI BOM and how to use AI and Dataset profiles in
+  SPDX 3.0 to document AI systems and datasets.
 
-**Key Topics:**
+  > Karen Bennet, Gopi Krishnan Rajbahadur, Arthit Suriyawongkul, and Kate Stewart, “Implementing AI Bill of Materials (AI BOM) with SPDX 3.0: A Comprehensive Guide to Creating AI and Dataset Bill of Materials”, The Linux Foundation, October 2024. <https://doi.org/10.70828/RNED4427>.
 
-- Introduction to AI BOM concepts
-- Benefits of AI transparency
-- SPDX as a standard for AI documentation
-- Industry use cases and adoption
-- Best practices and recommendations
+  [Read the whitepaper](https://www.linuxfoundation.org/research/ai-bom){ .md-button .md-button--primary }
 
-Cite as:
+- **Building an Open AIBOM Standard in the Wild**
 
-> Karen Bennet, Gopi Krishnan Rajbahadur, Arthit Suriyawongkul, and Kate Stewart, “Implementing AI Bill of Materials (AI BOM) with SPDX 3.0: A Comprehensive Guide to Creating AI and Dataset Bill of Materials”, The Linux Foundation, October 2024. <https://doi.org/10.70828/RNED4427>.
+  Documenting the experiences and lessons learned from developing the
+  AI and Dataset profiles in SPDX 3.0 in an open community setting.
+  Accepted for the [Software Engineering in Practice (SEIP) track](https://conf.researchr.org/track/icse-2026/icse-2026-software-engineering-in-practice) of IEEE/ACM International Conference on Software Engineering 2026.
 
-**Building an Open AIBOM Standard in the Wild**
+  > Gopi Krishnan Rajbahadur, Keheliya Gallaba, Elyas Rashno, Arthit Suriyawongkul, Karen Bennet, Kate Stewart, and Ahmed E. Hassan, “Building an Open AIBOM Standard in the Wild”. Preprint, arXiv, October 2025. <https://doi.org/10.48550/arXiv.2510.07070>.
 
-Gopi Krishnan Rajbahadur, Keheliya Gallaba, Elyas Rashno, Arthit Suriyawongkul, Karen Bennet, Kate Stewart, Ahmed E. Hassan. October 2025 <https://arxiv.org/abs/2510.07070> (Pre-print; Accepted for the [Software Engineering in Practice (SEIP) track](https://conf.researchr.org/track/icse-2026/icse-2026-software-engineering-in-practice) of IEEE/ACM International Conference on Software Engineering 2026).
+  [Read the paper](https://arxiv.org/abs/2510.07070){ .md-button .md-button--primary }
 
-[Read the paper](https://arxiv.org/abs/2510.07070){ .md-button .md-button--primary }
+## Presentations
 
-## Contributing research
+Presentations and talks on SPDX AI and Dataset profiles and other works from
+the SPDX AI Working Group:
 
-If you're conducting research related to SPDX AI profiles or AI BOM:
-
-1. **Share your work** - Let the community know about your research
-2. **Collaborate** - Connect with other researchers and practitioners
-3. **Present at meetings** - Share findings at working group meetings
-4. **Contribute to standards** - Help improve SPDX specifications
+- [Accountability Taxonomy for AI Software Bill of Materials](https://youtu.be/nSQ3rsaqpaQ?si=yf2WlEu3cMZl4Z8d)
+  by Arthit Suriyawongkul
+  at Open Source Summit North America 2024.
+  Provides an overview mapping of EU AI Act informational requirements
+  (focused on the market-entry obligations) to SPDX 3.0 data model.
 
 ## Citations
 
@@ -62,6 +59,38 @@ For the latest publications and research:
 - Watch the [SPDX GitHub organization](https://github.com/spdx)
 - Follow [Linux Foundation Research](https://www.linuxfoundation.org/research)
 - Join SPDX mailing lists and community channels
+
+## Similar and related efforts
+
+The SPDX AI Working Group is not the only technical group working on AI BOM.
+There is a growing number of communities in this space, including:
+
+- **[CycloneDX](https://cyclonedx.org/)**,
+  an SBOM standard from OWASP Foundation, also has AI BOM "capabilities" called
+  *[Machine Learning Bill of Materials (ML-BOM)](https://cyclonedx.org/capabilities/mlbom/)*.
+- **[Croissant](https://mlcommons.org/working-groups/data/croissant/).**
+  Standardize how ML datasets are described to make them easily discoverable and usable across tools and platforms. A project from MLCommons.
+- **[SBOM for AI Use-Cases](https://github.com/aibom-squad/SBOM-for-AI-Use-Cases)**
+  Use cases and recommendations to operationalize SBOMs for AI systems,
+  developed by the CISA-facilitated SBOM for AI Tiger Team.
+  The latest version of the document (0.3 draft, 23 June 2025) can be found on
+  its GitHub repository.
+- **OpenChain AI Study Group.**
+  Part of the [OpenChain Project](https://openchainproject.org/),
+  also under the Linux Foundation.
+  The group published
+  *[Artificial Intelligence System Bill of Materials: Compliance Management Guide for the Supply Chain](https://openchainproject.org/news/2025/10/20/welcoming-the-openchain-ai-system-bill-of-materials-compliance-guide)*
+  in October 2025. Join its mailing list at
+  <https://lists.openchainproject.org/g/ai>
+- **[OWASP AI BOM Project](https://owaspaibom.org/).**
+  A new initiative from the OWASP Foundation targeting first release
+  in November 2025.
+- **[TAIBOM](https://aibom.org/).** The Trustable AI Bill of Materials project
+  addresses versioning and annotations for AI systems.
+- **[Coalition for Secure AI (CoSAI)](https://www.coalitionforsecureai.org/).**
+  A project from OASIS Open focused on AI security controls and mitigations.
+- **[Responsible AI Licenses](https://www.licenses.ai/).**
+  A project focused on standardizing licenses for AI models and datasets.
 
 ---
 
