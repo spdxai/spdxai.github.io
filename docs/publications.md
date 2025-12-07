@@ -13,8 +13,7 @@ SPDX and SBOM standards.
 
 Key publications from the SPDX AI Working Group:
 
-- **Implementing AI Bill of Materials (AI BOM) with SPDX 3.0:**
-  **A comprehensive guide to creating AI and Dataset bill of materials.**
+- **Implementing AI Bill of Materials (AI BOM) with SPDX 3.0: A comprehensive guide to creating AI and Dataset bill of materials**
 
   Explores the concept of AI BOM and how to use AI and Dataset profiles in
   SPDX 3.0 to document AI systems and datasets.
@@ -23,13 +22,14 @@ Key publications from the SPDX AI Working Group:
 
   [Read the whitepaper](https://www.linuxfoundation.org/research/ai-bom){ .md-button .md-button--primary }
 
-- **Building an Open AIBOM Standard in the Wild**
+- **Building an Open AIBOM Standard in the Wild: An experience report on extending the SPDX SBOM (ISO/IEC 5962:2021) for AI supply chains**
 
-  Documenting the experiences and lessons learned from developing the
-  AI and Dataset profiles in SPDX 3.0 in an open community setting.
-  Accepted for the [Software Engineering in Practice (SEIP) track](https://conf.researchr.org/track/icse-2026/icse-2026-software-engineering-in-practice) of IEEE/ACM International Conference on Software Engineering 2026.
+  Documenting the experiences, design decisions, and lessons learned
+  from developing the AI and Dataset profiles in SPDX 3.0 in an open community setting.
 
   > Gopi Krishnan Rajbahadur, Keheliya Gallaba, Elyas Rashno, Arthit Suriyawongkul, Karen Bennet, Kate Stewart, and Ahmed E. Hassan, “Building an Open AIBOM Standard in the Wild”. Preprint, arXiv, October 2025. <https://doi.org/10.48550/arXiv.2510.07070>.
+
+  *Accepted for the [Software Engineering in Practice (SEIP) track](https://conf.researchr.org/track/icse-2026/icse-2026-software-engineering-in-practice) of IEEE/ACM International Conference on Software Engineering 2026.*
 
   [Read the paper](https://arxiv.org/abs/2510.07070){ .md-button .md-button--primary }
 
