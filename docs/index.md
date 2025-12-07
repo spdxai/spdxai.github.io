@@ -15,8 +15,8 @@ This technical working group focuses on developing and maintaining the
 
 The SPDX AI Working Group is dedicated to creating standards for documenting
 artificial intelligence systems and datasets in a standardized format.
-Our work enables safety, transparency, and compliance in AI development through
-standardized Bill of Materials (BOM) practices.
+[Our work](./publications.md) enables safety, transparency, and compliance
+in AI development through standardized bill of materials (BOM) practices.
 
 ## Mission
 
