@@ -11,7 +11,8 @@ SPDX and SBOM standards.
 
 ## Key publications
 
-Key publications from the SPDX AI Working Group:
+In addition to the SPDX AI and Dataset profiles,
+the Working Group releases publications covering usage guidance and design rationale.
 
 - **Implementing AI Bill of Materials (AI BOM) with SPDX 3.0: A comprehensive guide to creating AI and Dataset bill of materials**
 
