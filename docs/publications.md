@@ -40,22 +40,22 @@ Presentations and talks on SPDX AI and Dataset profiles and other works from
 the SPDX AI Working Group:
 
 - **[Accountability Taxonomy for AI Software Bill of Materials](https://ossna2024.sched.com/event/1aBNk/accountability-taxonomy-for-ai-software-bill-of-materials-arthit-suriyawongkul-adapt-centre-trinity-college-dublin)**
-  by Arthit Suriyawongkul
-  at Open Source Summit North America 2024,
-  16 April 2024.
+    by Arthit Suriyawongkul
+    at Open Source Summit North America 2024,
+    16 April 2024.
 
-  Provides an overview mapping of EU AI Act informational requirements
-  (focused on the market-entry obligations) to SPDX 3.0 data model.
+    Provides an overview mapping of EU AI Act informational requirements
+    (focused on the market-entry obligations) to SPDX 3.0 data model.
 
 - **[Trust, Track, and Verify: Securing AI Pipelines End-to-End](https://colocatedeventsna2025.sched.com/event/28D03/trust-track-and-verify-securing-ai-pipelines-end-to-end-adolfo-garcia-carabiner-systems-jun-victor-lu-independent)**
-  by Adolfo Garcia & Jun (Victor) Lu
-  at Open Source SecurityCon, Supply Chain+Application Security,
-  10 November 2025.
+    by Adolfo Garcia & Jun (Victor) Lu
+    at Open Source SecurityCon, Supply Chain+Application Security,
+    10 November 2025.
 
-  Explores how to secure AI pipelines using bill of materials, such as SPDX,
-  to capture complete lineage of code, data, and models; AI-specific controls
-  from CoSAI’s supply chain framework; and Unified AI-Ops practices across
-  MLOps, DataOps, SecOps, and AgentOps.
+    Explores how to secure AI pipelines using bill of materials, such as SPDX,
+    to capture complete lineage of code, data, and models; AI-specific controls
+    from CoSAI’s supply chain framework; and Unified AI-Ops practices across
+    MLOps, DataOps, SecOps, and AgentOps.
 
 ## Citations
 
