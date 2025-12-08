@@ -11,6 +11,7 @@ use_directory_urls: true
 
 theme:
   name: material
+  favicon: img/favicon.png
   logo: img/spdx-logo-white.svg
   palette:
     # Palette toggle for light mode
