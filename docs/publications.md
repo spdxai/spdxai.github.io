@@ -89,6 +89,8 @@ There is a growing number of communities in this space, including:
   in November 2025.
 - **[TAIBOM](https://aibom.org/).** The Trustable AI Bill of Materials project
   addresses versioning and annotations for AI systems.
+- **[OpenSSF AI/ML Security WG](https://github.com/ossf/ai-ml-security).**
+  Part of the [Open Source Security Foundation](https://openssf.org/).
 - **[TechOps](https://github.com/aloosley/techops/).** Not exactly BOM,
   but another AI system technical documentation approach for the EU AI Act
   compliance.
