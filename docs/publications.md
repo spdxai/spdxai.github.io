@@ -14,16 +14,14 @@ SPDX and SBOM standards.
 In addition to the SPDX AI and Dataset profiles,
 the Working Group releases publications covering usage guidance and design rationale.
 
-- **Implementing AI Bill of Materials (AI BOM) with SPDX 3.0: A comprehensive guide to creating AI and Dataset bill of materials**
+- **[Implementing AI bill of materials (AI BOM) with SPDX 3.0: A comprehensive guide to creating AI and dataset bill of materials](https://www.linuxfoundation.org/research/ai-bom)**
 
     Explores the concept of AI BOM and how to use AI and Dataset profiles in
     SPDX 3.0 to document AI systems and datasets.
 
     > Karen Bennet, Gopi Krishnan Rajbahadur, Arthit Suriyawongkul, and Kate Stewart, “Implementing AI Bill of Materials (AI BOM) with SPDX 3.0: A Comprehensive Guide to Creating AI and Dataset Bill of Materials”, The Linux Foundation, October 2024. <https://doi.org/10.70828/RNED4427>.
 
-    [Read the whitepaper](https://www.linuxfoundation.org/research/ai-bom){ .md-button .md-button--primary }
-
-- **Building an Open AIBOM Standard in the Wild: An experience report on extending the SPDX SBOM (ISO/IEC 5962:2021) for AI supply chains**
+- **[Building an ppen AIBOM standard in the wild: An experience report on extending the SPDX SBOM (ISO/IEC 5962:2021) for AI supply chains](https://arxiv.org/abs/2510.07070)**
 
     Documenting the experiences, design decisions, and lessons learned
     from developing the AI and Dataset profiles in SPDX 3.0 in an open community setting.
@@ -32,14 +30,21 @@ the Working Group releases publications covering usage guidance and design ratio
 
     *Accepted for the [Software Engineering in Practice (SEIP) track](https://conf.researchr.org/track/icse-2026/icse-2026-software-engineering-in-practice) of IEEE/ACM International Conference on Software Engineering 2026.*
 
-    [Read the paper](https://arxiv.org/abs/2510.07070){ .md-button .md-button--primary }
-
 ## Presentations
 
 Presentations and talks on SPDX AI and Dataset profiles and other works from
 the SPDX AI Working Group:
 
-- **[Accountability Taxonomy for AI Software Bill of Materials](https://ossna2024.sched.com/event/1aBNk/accountability-taxonomy-for-ai-software-bill-of-materials-arthit-suriyawongkul-adapt-centre-trinity-college-dublin)**
+- **[How to make SPDX industry standard for AI/ML](https://archive.fosdem.org/2024/schedule/event/fosdem-2024-3169-how-to-make-spdx-industry-standard-for-ai-ml/)**
+    by Cheuk Ting Ho
+    at FOSDEM 2024,
+    4 February 2024.
+
+    Although this talk predates the SPDX 3.0 final release, it provides
+    insights into the motivations for the SPDX AI BOM and the roadmap for
+    community adoption.
+
+- **[Accountability taxonomy for AI software bill of materials](https://ossna2024.sched.com/event/1aBNk/accountability-taxonomy-for-ai-software-bill-of-materials-arthit-suriyawongkul-adapt-centre-trinity-college-dublin)**
     by Arthit Suriyawongkul
     at Open Source Summit North America 2024,
     16 April 2024.
@@ -47,7 +52,16 @@ the SPDX AI Working Group:
     Provides an overview mapping of EU AI Act informational requirements
     (focused on the market-entry obligations) to SPDX 3.0 data model.
 
-- **[SPDX: Tackling System Risk in Modern Supply Chains](https://pytorchconference.sched.com/event/2AJ9O)**
+- **[From complexity to clarity: Addressing challenges in AI BOMs for compliance](https://ossaidevjapan24.sched.com/event/1jKEj/from-complexity-to-clarity-addressing-challenges-in-ai-boms-for-compliance-gopi-krishnan-rajbahadur-queens-university-kate-stewart-the-linux-foundation)**
+    by Gopi Krishnan Rajbahadur and Kate Stewart
+    at Open Source Summit Japan 2024,
+    29 October 2024.
+
+    Best practices and strategies to improve AI BOM accuracy and utility,
+    equipping professionals with the insights to ensure their AI applications
+    are compliant and prepared for future regulations.
+
+- **[SPDX: Tackling system risk in modern supply chains](https://pytorchconference.sched.com/event/2AJ9O)**
     by Kate Stewart and Gary O'Neall
     at PyTorch Conference 2025,
     22 October 2025.
@@ -57,7 +71,7 @@ the SPDX AI Working Group:
     risk analysis for licensing, security, and data biases in model training
     can be performed.
 
-- **[Trust, Track, and Verify: Securing AI Pipelines End-to-End](https://colocatedeventsna2025.sched.com/event/28D03/trust-track-and-verify-securing-ai-pipelines-end-to-end-adolfo-garcia-carabiner-systems-jun-victor-lu-independent)**
+- **[Trust, track, and verify: Securing AI pipelines end-to-end](https://colocatedeventsna2025.sched.com/event/28D03/trust-track-and-verify-securing-ai-pipelines-end-to-end-adolfo-garcia-carabiner-systems-jun-victor-lu-independent)**
     by Adolfo Garcia & Jun (Victor) Lu
     at Open Source SecurityCon 2025,
     10 November 2025.
