@@ -8,21 +8,21 @@ SPDX-License-Identifier: CC0-1.0
 
 ![An illustration of three „pixelated“ cupboards next to each other with open drawers, the right one is black](./img/anton-grabolle-classification-cupboard.jpg)
 
-Welcome to the **SPDX AI Working Group** website.
-This technical working group focuses on developing and maintaining the
-[AI][ai-profile] and [Dataset][dataset-profile] profiles of the
-[System Package Data Exchange™ (SPDX®) specification][spdx-spec].
+The **SPDX AI Working Group** is a technical working group for the
+[AI area of interest][spdx-ai], within the
+[System Package Data Exchange™ (SPDX®) project][spdx-project],
+dedicated to creating standards for documenting artificial intelligence systems
+and datasets in a standardized format.
 
-The SPDX AI Working Group is dedicated to creating standards for documenting
-artificial intelligence systems and datasets in a standardized format.
-[Our work](./publications.md) enables safety, transparency, and compliance
+[Our works](./publications.md) enable safety, transparency, and compliance
 in AI development through standardized bill of materials (BOM) practices.
 
 ## Mission
 
 Our mission is to:
 
-- Develop and maintain AI and Dataset profiles for SPDX specification
+- Develop and maintain AI and Dataset profiles for
+  [SPDX specification][spdx-spec]
 - Create comprehensive documentation and examples
 - Facilitate collaboration among industry stakeholders
 - Promote best practices for AI transparency and accountability
@@ -139,10 +139,11 @@ See more examples in the [Examples](./examples.md) section.
 
 Want to improve this? See [Contribute](./contribute.md) section.
 
+[spdx-ai]: https://spdx.dev/learn/areas-of-interest/ai/
+[spdx-project]: https://spdx.dev/
+[spdx-spec]: https://spdx.org/specifications/
 [ai-profile]: https://spdx.github.io/spdx-spec/latest/model/AI/AI/
 [dataset-profile]: https://spdx.github.io/spdx-spec/latest/model/Dataset/Dataset/
-[spdx-spec]: https://spdx.org/specifications/
-[ai-ex-02]: https://github.com/spdx/spdx-examples/tree/master/ai/example02
 
 ---
 
