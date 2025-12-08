@@ -47,6 +47,16 @@ the SPDX AI Working Group:
     Provides an overview mapping of EU AI Act informational requirements
     (focused on the market-entry obligations) to SPDX 3.0 data model.
 
+- **[SPDX: Tackling System Risk in Modern Supply Chains](https://pytorchconference.sched.com/event/2AJ9O)**
+    by Kate Stewart and Gary O'Neall
+    at PyTorch Conference 2025,
+    22 October 2025.
+
+    Go through the key aspects in SPDX 3.0 that enable AI systems and the data
+    used to train the systems to be made transparent, so proper system level
+    risk analysis for licensing, security, and data biases in model training
+    can be performed.
+
 - **[Trust, Track, and Verify: Securing AI Pipelines End-to-End](https://colocatedeventsna2025.sched.com/event/28D03/trust-track-and-verify-securing-ai-pipelines-end-to-end-adolfo-garcia-carabiner-systems-jun-victor-lu-independent)**
     by Adolfo Garcia & Jun (Victor) Lu
     at Open Source SecurityCon 2025,
