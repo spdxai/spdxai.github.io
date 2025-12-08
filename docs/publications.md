@@ -49,7 +49,7 @@ the SPDX AI Working Group:
 
 - **[Trust, Track, and Verify: Securing AI Pipelines End-to-End](https://colocatedeventsna2025.sched.com/event/28D03/trust-track-and-verify-securing-ai-pipelines-end-to-end-adolfo-garcia-carabiner-systems-jun-victor-lu-independent)**
     by Adolfo Garcia & Jun (Victor) Lu
-    at Open Source SecurityCon, Supply Chain+Application Security,
+    at Open Source SecurityCon 2025,
     10 November 2025.
 
     Explores how to secure AI pipelines using bill of materials, such as SPDX,
