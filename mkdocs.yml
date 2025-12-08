@@ -1,7 +1,7 @@
 site_name: SPDX AI Working Group
 site_description: The technical working group contributing to AI and data standards for the SPDX specification. Resources and updates from the working group.
 site_author: SPDX AI Working Group
-copyright: Copyright &copy; 2025, The Linux Foundation and its Contributors.
+copyright: SPDX AI Working Group. Content is released under <a href="https://spdx.org/licenses/CC0-1.0.html">Creative Commons Zero v1.0 Universal</a> public domain dedication.
 site_url: https://spdxai.github.io/
 repo_url: https://github.com/spdxai/spdxai.github.io
 repo_name: spdxai/spdxai.github.io
@@ -31,7 +31,7 @@ theme:
     - navigation.expand
     - navigation.instant
     - navigation.instant.progress
-    - navigation.tabs
+    # - navigation.tabs
     - navigation.sections
     - navigation.top
     - search.highlight
