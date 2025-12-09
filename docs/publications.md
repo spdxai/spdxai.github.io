@@ -97,6 +97,8 @@ the SPDX AI Working Group:
     from CoSAI’s supply chain framework; and Unified AI-Ops practices across
     MLOps, DataOps, SecOps, and AgentOps.
 
+See more SPDX presentations at [SPDX Outreach resources](https://github.com/spdx/outreach/blob/main/SPDX-presentations.md).
+
 ## Citations
 
 When citing the SPDX AI Working Group or related standards, please reference:
