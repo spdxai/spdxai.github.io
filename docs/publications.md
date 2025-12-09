@@ -35,6 +35,14 @@ the Working Group releases publications covering usage guidance and design ratio
 Presentations and talks on SPDX AI and Dataset profiles and other works from
 the SPDX AI Working Group:
 
+- **[Software bill of materials for AI software](https://youtu.be/AnK9u2zGM14)**
+    by Gopi Krishnan Rajbahadur and King Gao
+    at Open Source Summit Europe 2023,
+    18 September 2023.
+
+    The idea behind SPDX 3.0 AI and Dataset profiles. Why model cards and
+    datasheets are not enough?
+
 - **[How to make SPDX industry standard for AI/ML](https://archive.fosdem.org/2024/schedule/event/fosdem-2024-3169-how-to-make-spdx-industry-standard-for-ai-ml/)**
     by Cheuk Ting Ho
     at FOSDEM 2024,
@@ -51,6 +59,14 @@ the SPDX AI Working Group:
 
     Provides an overview mapping of EU AI Act informational requirements
     (focused on the market-entry obligations) to SPDX 3.0 data model.
+
+- **[SPDX 3.0 now supports SBOMs for AI applications](https://youtu.be/q2gl3f1nVZs).**
+    Interview with Kate Stewart,
+    TFIR podcast,
+    9 May 2024.
+
+    “The challenge we were seeing with the supply chain is that it isn't just
+    software and hardware anymore, it's now realistically data.”
 
 - **[From complexity to clarity: Addressing challenges in AI BOMs for compliance](https://ossaidevjapan24.sched.com/event/1jKEj/from-complexity-to-clarity-addressing-challenges-in-ai-boms-for-compliance-gopi-krishnan-rajbahadur-queens-university-kate-stewart-the-linux-foundation)**
     by Gopi Krishnan Rajbahadur and Kate Stewart
