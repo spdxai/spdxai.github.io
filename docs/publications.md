@@ -102,6 +102,10 @@ the SPDX AI Working Group:
     at PyCon Ireland 2025,
     15 November 2025.
 
+    A lightning talk that quickly go through what is SBOM, how Python Software
+    Foundation uses it, relevant PEPs, the minimum elements, the AI SBOM,
+    and Python tools for SPDX.
+
 See more SPDX presentations at [SPDX Outreach resources](https://github.com/spdx/outreach/blob/main/SPDX-presentations.md).
 
 ## Citations
