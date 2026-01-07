@@ -97,6 +97,11 @@ the SPDX AI Working Group:
     from CoSAI’s supply chain framework; and Unified AI-Ops practices across
     MLOps, DataOps, SecOps, and AgentOps.
 
+- **[PSF adopts SPDX for Software Bill of Materials, will you?](https://docs.google.com/presentation/d/1eE-ELUof8eQ4QjUWC4r4EHNRU1En4F_i1mkDA51N5rM/edit?usp=sharing)**
+    by Arthit Suriyawongkul
+    at PyCon Ireland 2025,
+    15 November 2025.
+
 See more SPDX presentations at [SPDX Outreach resources](https://github.com/spdx/outreach/blob/main/SPDX-presentations.md).
 
 ## Citations
