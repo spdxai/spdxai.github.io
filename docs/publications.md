@@ -28,7 +28,7 @@ the Working Group releases publications covering usage guidance and design ratio
 
     > Gopi Krishnan Rajbahadur, Keheliya Gallaba, Elyas Rashno, Arthit Suriyawongkul, Karen Bennet, Kate Stewart, and Ahmed E. Hassan, “Building an Open AIBOM Standard in the Wild”. Preprint, arXiv, October 2025. <https://doi.org/10.48550/arXiv.2510.07070>.
 
-    *Accepted for the [Software Engineering in Practice (SEIP) track](https://conf.researchr.org/track/icse-2026/icse-2026-software-engineering-in-practice) of IEEE/ACM International Conference on Software Engineering 2026.*
+    *Accepted for the [Software Engineering in Practice (SEIP) track](https://conf.researchr.org/details/icse-2026/icse-2026-software-engineering-in-practice/61/Building-an-Open-AIBOM-Standard-in-the-Wild-An-Experience-Report-on-Extending-the-SP) of IEEE/ACM International Conference on Software Engineering 2026.*
 
 ## Presentations
 
