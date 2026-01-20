@@ -21,7 +21,7 @@ the Working Group releases publications covering usage guidance and design ratio
 
     > Karen Bennet, Gopi Krishnan Rajbahadur, Arthit Suriyawongkul, and Kate Stewart, “Implementing AI Bill of Materials (AI BOM) with SPDX 3.0: A Comprehensive Guide to Creating AI and Dataset Bill of Materials”, The Linux Foundation, October 2024. <https://doi.org/10.70828/RNED4427>.
 
-- **[Building an ppen AIBOM standard in the wild: An experience report on extending the SPDX SBOM (ISO/IEC 5962:2021) for AI supply chains](https://arxiv.org/abs/2510.07070)**
+- **[Building an open AIBOM standard in the wild: An experience report on extending the SPDX SBOM (ISO/IEC 5962:2021) for AI supply chains](https://arxiv.org/abs/2510.07070)**
 
     Documenting the experiences, design decisions, and lessons learned
     from developing the AI and Dataset profiles in SPDX 3.0 in an open community setting.
