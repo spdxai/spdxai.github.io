@@ -6,17 +6,26 @@ SPDX-License-Identifier: CC0-1.0
 
 # Profiles overview
 
+The SPDX AI Working Group develops and maintains two SPDX 3 profiles:
+AI and Dataset.
+
+The stable SPDX 3.0 AI and Dataset profiles can be found at:
+<https://spdx.github.io/spdx-spec/v3.0.1/>.
+
+The work-in-progress SPDX 3.1-RC1 AI and Dataset profiles can be found at:
+<https://spdx.github.io/spdx-spec/v3.1-RC1/>.
+
 ## AI profile
 
 [AI profile][ai-profile]
 
-[![SPDX 3.0 AI profile digram](./img/model-ai.png)](https://spdx.github.io/spdx-spec/v3.0/annexes/rdf-model/)
+[![SPDX 3.1-RC1 AI profile diagram](./img/model-ai.png)](https://spdx.github.io/spdx-spec/v3.1-RC1/annexes/rdf-model/)
 
 ## Dataset profile
 
 [Dataset profile][dataset-profile]
 
-[![SPDX 3.0 Dataset profile digram](./img/model-dataset.png)](https://spdx.github.io/spdx-spec/v3.0/annexes/rdf-model/)
+[![SPDX 3.1-RC1 Dataset profile diagram](./img/model-dataset.png)](https://spdx.github.io/spdx-spec/v3.1-RC1/annexes/rdf-model/)
 
 ## SBOM example
 
