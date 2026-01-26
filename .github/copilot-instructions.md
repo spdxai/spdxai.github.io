@@ -31,7 +31,7 @@
       and framework you are using.
 - [ ] For URLs/IRIs, use lowercase letters and hyphens to separate words
       (e.g., `my-api-endpoint`) and follow W3C Cool URIs for the Semantic Web:
-      https://www.w3.org/TR/cooluris/
+      <https://www.w3.org/TR/cooluris/>
 - [ ] Consult Schema.org vocabularies when deciding about names.
 
 ## Tidy code and documentation
@@ -50,7 +50,7 @@
 ## File header
 
 - [ ] When possible, put relevant SPDX File Tags at file header.
-      See https://spdx.github.io/spdx-spec/v2.3/file-information/
+      See <https://spdx.github.io/spdx-spec/v2.3/file-information/>
   - [ ] SPDX-FileContributor
   - [ ] SPDX-FileCopyrightText
   - [ ] Default SPDX-FileType for code is "SOURCE"
@@ -93,25 +93,25 @@
 
 ## SPDX resources
 
-- Official SPDX project website https://spdx.dev/
-- SPDX 3.0 spec https://spdx.github.io/spdx-spec/v3.0/
-- SPDX 3.0 model https://spdx.org/rdf/3.0/spdx-model.ttl
-- SPDX 3.0 JSON Schema https://spdx.org/schema/3.0/spdx-json-schema.json
-- SPDX 3.0 JSON-LD context file https://spdx.org/rdf/3.0/spdx-context.jsonld
-- SPDX 3.1 spec (under development) https://spdx.github.io/spdx-spec/v3.1-dev/
+- Official SPDX project website <https://spdx.dev/>
+- SPDX 3.0 spec <https://spdx.github.io/spdx-spec/v3.0/>
+- SPDX 3.0 model <https://spdx.org/rdf/3.0/spdx-model.ttl>
+- SPDX 3.0 JSON Schema <https://spdx.org/schema/3.0/spdx-json-schema.json>
+- SPDX 3.0 JSON-LD context file <https://spdx.org/rdf/3.0/spdx-context.jsonld>
+- SPDX 3.1 spec (under development) <https://spdx.github.io/spdx-spec/v3.1-dev/>
 - SPDX 3.1 spec terms and definition
-  https://spdx.github.io/spdx-spec/v3.1-dev/terms-and-definitions/
+  <https://spdx.github.io/spdx-spec/v3.1-dev/terms-and-definitions/>
 - SPDX 3 JSON validation guide
-  https://github.com/spdx/spdx-3-model/blob/develop/serialization/jsonld/validation.md
+  <https://github.com/spdx/spdx-3-model/blob/develop/serialization/jsonld/validation.md>
 - SPDX 3 model format and style guide
-  https://github.com/spdx/spdx-3-model/blob/develop/docs/format.md
-- SPDX Examples https://github.com/spdx/spdx-examples
+  <https://github.com/spdx/spdx-3-model/blob/develop/docs/format.md>
+- SPDX Examples <https://github.com/spdx/spdx-examples>
   Most of the examples there should be a valid SPDX document.
-- Using SDPX https://github.com/spdx/using
+- Using SDPX <https://github.com/spdx/using>
   Guidelines on using SPDX in different contexts.
 - NTIA Conformance Checker also provide a small corpus of SPDX documents for
   testing purposes. Some of them could be invalid or incomplete intentionally.
-  https://github.com/spdx/ntia-conformance-checker/tree/main/tests
-- Use spdx3-validate from PyPI https://pypi.org/project/spdx3-validate/
-  (GitHub repo: https://github.com/JPEWdev/spdx3-validate) to validate SPDX 3
+  <https://github.com/spdx/ntia-conformance-checker/tree/main/tests>
+- Use spdx3-validate from PyPI <https://pypi.org/project/spdx3-validate/>
+  (GitHub repo: <https://github.com/JPEWdev/spdx3-validate>) to validate SPDX 3
   document when applicable.

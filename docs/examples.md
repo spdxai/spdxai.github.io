@@ -15,7 +15,9 @@ The SPDX community maintains a comprehensive collection of examples
 demonstrating various SPDX profiles and use cases, including AI and Dataset
 examples.
 
-[View SPDX examples](https://github.com/spdx/spdx-examples){ .md-button .md-button--primary }
+[View SPDX examples][spdx-examples]{ .md-button .md-button--primary }
+
+[spdx-examples]: https://github.com/spdx/spdx-examples
 
 ## Contributing examples
 

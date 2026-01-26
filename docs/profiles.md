@@ -37,5 +37,4 @@ See more examples in the [Examples](./examples.md) section.
 
 [ai-profile]: https://spdx.github.io/spdx-spec/latest/model/AI/AI/
 [dataset-profile]: https://spdx.github.io/spdx-spec/latest/model/Dataset/Dataset/
-[spdx-spec]: https://spdx.org/specifications/
 [ai-ex-02]: https://github.com/spdx/spdx-examples/tree/master/ai/example02

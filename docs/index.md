@@ -6,7 +6,7 @@ SPDX-License-Identifier: CC0-1.0
 
 # SPDX AI Working Group
 
-![An illustration of three „pixelated“ cupboards next to each other with open drawers, the right one is black](./img/anton-grabolle-classification-cupboard.jpg)
+![An illustration of three „pixelated“ cupboards](./img/anton-grabolle-classification-cupboard.jpg)
 
 The **SPDX AI Working Group** is a technical working group for the
 [AI area of interest][spdx-ai], within the
@@ -127,8 +127,14 @@ Use the tabs to switch between representations.
                 spdx-ai:energyUnit "kilowattHour"
             ]
         ] ;
-        spdx-ai:hyperparameter [ a spdx:DictionaryEntry ; spdx:key "epoch" ; spdx:value "100" ] ;
-        spdx-ai:metric [ a spdx:DictionaryEntry ; spdx:key "f1" ; spdx:value "0.4669192" ] .
+        spdx-ai:hyperparameter [
+          a spdx:DictionaryEntry ;
+          spdx:key "epoch" ; spdx:value "100"
+        ] ;
+        spdx-ai:metric [
+          a spdx:DictionaryEntry ;
+          spdx:key "f1" ; spdx:value "0.4669192"
+        ] .
     ```
 
 SPDX AI and Dataset profiles can be used to comprehensively document AI systems

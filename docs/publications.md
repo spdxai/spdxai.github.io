@@ -14,21 +14,33 @@ SPDX and SBOM standards.
 In addition to the SPDX AI and Dataset profiles,
 the Working Group releases publications covering usage guidance and design rationale.
 
-- **[Implementing AI bill of materials (AI BOM) with SPDX 3.0: A comprehensive guide to creating AI and dataset bill of materials](https://www.linuxfoundation.org/research/ai-bom)**
+- **[Implementing AI bill of materials (AI BOM) with SPDX 3.0: A comprehensive guide to creating AI and dataset bill of materials][aibom2024]**
 
     Explores the concept of AI BOM and how to use AI and Dataset profiles in
     SPDX 3.0 to document AI systems and datasets.
 
-    > Karen Bennet, Gopi Krishnan Rajbahadur, Arthit Suriyawongkul, and Kate Stewart, “Implementing AI Bill of Materials (AI BOM) with SPDX 3.0: A Comprehensive Guide to Creating AI and Dataset Bill of Materials”, The Linux Foundation, October 2024. <https://doi.org/10.70828/RNED4427>.
+    > Karen Bennet, Gopi Krishnan Rajbahadur,
+    > Arthit Suriyawongkul, and Kate Stewart,
+    > “Implementing AI Bill of Materials (AI BOM) with SPDX 3.0:
+    > A Comprehensive Guide to Creating AI and Dataset Bill of Materials”,
+    > The Linux Foundation, October 2024. <https://doi.org/10.70828/RNED4427>.
 
-- **[Building an open AIBOM standard in the wild: An experience report on extending the SPDX SBOM (ISO/IEC 5962:2021) for AI supply chains](https://arxiv.org/abs/2510.07070)**
+- **[Building an open AIBOM standard in the wild: An experience report on extending the SPDX SBOM (ISO/IEC 5962:2021) for AI supply chains][seip2026-pre]**
 
     Documenting the experiences, design decisions, and lessons learned
-    from developing the AI and Dataset profiles in SPDX 3.0 in an open community setting.
+    from developing the AI and Dataset profiles in SPDX 3.0
+    in an open community setting.
 
-    > Gopi Krishnan Rajbahadur, Keheliya Gallaba, Elyas Rashno, Arthit Suriyawongkul, Karen Bennet, Kate Stewart, and Ahmed E. Hassan, “Building an Open AIBOM Standard in the Wild”. Preprint, arXiv, October 2025. <https://doi.org/10.48550/arXiv.2510.07070>.
+    > Gopi Krishnan Rajbahadur, Keheliya Gallaba, Elyas Rashno,
+    > Arthit Suriyawongkul, Karen Bennet, Kate Stewart, and Ahmed E. Hassan,
+    > “Building an Open AIBOM Standard in the Wild”. Preprint, arXiv,
+    > October 2025. <https://doi.org/10.48550/arXiv.2510.07070>.
 
-    *Accepted for the [Software Engineering in Practice (SEIP) track](https://conf.researchr.org/details/icse-2026/icse-2026-software-engineering-in-practice/61/Building-an-Open-AIBOM-Standard-in-the-Wild-An-Experience-Report-on-Extending-the-SP) of IEEE/ACM International Conference on Software Engineering 2026.*
+    *Accepted for the [Software Engineering in Practice (SEIP) track][seip2026] of IEEE/ACM International Conference on Software Engineering 2026.*
+
+[aibom2024]: https://www.linuxfoundation.org/research/ai-bom
+[seip2026-pre]: https://arxiv.org/abs/2510.07070
+[seip2026]: https://conf.researchr.org/details/icse-2026/icse-2026-software-engineering-in-practice/61/Building-an-Open-AIBOM-Standard-in-the-Wild-An-Experience-Report-on-Extending-the-SP
 
 ## Presentations
 
