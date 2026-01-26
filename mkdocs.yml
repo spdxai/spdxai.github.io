@@ -1,3 +1,8 @@
+# SPDX-FileCopyrightText: 2025-2026 SPDX contributors
+# SPDX-FileContributor: SPDX AI Working Group and its Contributors
+# SPDX-FileType: SOURCE
+# SPDX-License-Identifier: Apache-2.0
+
 site_name: SPDX AI Working Group
 site_description: The technical working group contributing to AI and data standards for the SPDX specification. Resources and updates from the working group.
 site_author: SPDX AI Working Group
@@ -70,5 +75,3 @@ extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/spdxai
-    - icon: fontawesome/brands/linux
-      link: https://www.linuxfoundation.org/

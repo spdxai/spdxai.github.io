@@ -1,26 +1,29 @@
+# Copilot instructions
+
 ## General language use
 
 - [ ] Prefer clear, concise, and unambiguous sentences.
 - [ ] Avoid words and phrases that may have more than one interpretation.
-- [ ] Avoid overly long paragraphs. Breaking up text into smaller paragraphs,
-      using bullet points, or creating numbered lists to improve readability.
-- [ ] Help reader's comprehension by separating distinct concepts, processes,
-      criteria, or categories.
-- [ ] Use parallel language structures in lists and documentation.
-- [ ] Use a uniform writing style, particularly when presenting similar or
-      related information, so the reader's compare easily.
-- [ ] If not specified otherwise, use Chicago style for reference/citation.
-- [ ] When writing on level of requirements, use the verbal forms consistently.
-      Use either ISO/IEC verbal form (ISO/IEC Directives, Part 2 --
-      Principles and rules for the structure and drafting of ISO and IEC
-      documents) or IETF verbal form (RFC 2119 and RFC 8174).
-      Try to detect the level of requirements from type/domain of the document.
-      IETF is default for internet/web/semantic web projects in general.
-      ISO is default for SPDX project.
+- [ ] Avoid overly long paragraphs; break text into shorter paragraphs,
+      bullet points, or numbered lists to improve readability.
+- [ ] Separate distinct concepts, processes, criteria, or categories to aid
+      comprehension.
+- [ ] Use parallel structures in lists and a consistent writing style for
+      related content so readers can compare easily.
+- [ ] When citing references, use Chicago style unless a different style is
+      specified.
+- [ ] When writing requirements, use verbal forms consistently. Prefer the
+      ISO/IEC verbal form (ISO/IEC Directives, Part 2) or the IETF form (RFC
+      2119 / RFC 8174) depending on the document: use IETF for internet/web
+      work and ISO for SPDX-specific documents.
 - [ ] Use either American or British spelling consistently.
-      Check for inconsistency.
-      If not specified, or there is no clear existing example in the file or
-      the repo, use British spelling as a default.
+  - [ ] SPDX default is American spelling.
+- [ ] Use active voice where possible.
+- [ ] Use gender-neutral language.
+- [ ] Avoid idioms, colloquialisms, and culturally specific references to
+      ensure clarity for a global audience.
+- [ ] When using acronyms or abbreviations, define them on first use.
+- [ ] Spell check the text to avoid typos and spelling mistakes.
 
 ## Naming conventions
 
@@ -40,11 +43,9 @@
 - [ ] Write clear and concise comments and documentation for your code.
       For something obvious, avoid comments that just restate the code.
 - [ ] After making changes, review the code and documentation to ensure
-      up-to-dateness, correctness, consistency, and clarity.
-- [ ] Make sure that all code comments, APIs, and documentation are consistent
-      with the current state of the codebase.
-- [ ] Make sure that the examples in the documentation are runnable, up-to-date
-      and reflect the current behavior of the code.      
+      they are up to date, correct, consistent, and clear.
+- [ ] Ensure comments, APIs, and documentation reflect the current codebase.
+- [ ] Keep documentation examples runnable and up to date.
 
 ## File header
 
@@ -81,14 +82,14 @@
 ## CSS
 
 - [ ] Make sure there is no unused styles.
-- [ ] Use sensible and concise element IDs and names that allow code
-      readability, name grouping also helps.
+- [ ] Ensure styles are used and organized; avoid unused rules.
 
 ## Version
 
 - [ ] When suggest dependencies, recheck the version; if the version exists,
-      or if the version compatible with the system or other dependencies.
-- [ ] When manage own's project, prefer a Semantic Version.
+- [ ] When suggesting dependencies, verify the version exists and is
+      compatible with the system and other project dependencies.
+- [ ] When managing a project, prefer Semantic Versioning.
 
 ## SPDX resources
 
@@ -105,7 +106,9 @@
 - SPDX 3 model format and style guide
   https://github.com/spdx/spdx-3-model/blob/develop/docs/format.md
 - SPDX Examples https://github.com/spdx/spdx-examples
-  Most of the examples here should be a valid SPDX document.
+  Most of the examples there should be a valid SPDX document.
+- Using SDPX https://github.com/spdx/using
+  Guidelines on using SPDX in different contexts.
 - NTIA Conformance Checker also provide a small corpus of SPDX documents for
   testing purposes. Some of them could be invalid or incomplete intentionally.
   https://github.com/spdx/ntia-conformance-checker/tree/main/tests

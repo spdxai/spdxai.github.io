@@ -1,3 +1,8 @@
+# SPDX-FileCopyrightText: 2025-2026 SPDX contributors
+# SPDX-FileContributor: SPDX AI Working Group and its Contributors
+# SPDX-FileType: SOURCE
+# SPDX-License-Identifier: Apache-2.0
+
 name: Deploy MkDocs to GitHub Pages
 
 on:
