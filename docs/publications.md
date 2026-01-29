@@ -173,7 +173,7 @@ There is a growing number of communities in this space, including:
   A project from OASIS Open focused on AI security controls and mitigations.
 - **[Responsible AI Licenses](https://www.licenses.ai/).**
   A project focused on standardizing licenses for AI models and datasets.
-- **[A shared G7 Vision on Software Bill of Materials for Artificial Intelligence](https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/KI/SBOM-for-AI_Food-for-thoughts.html].**
+- **[A shared G7 Vision on Software Bill of Materials for Artificial Intelligence](https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/KI/SBOM-for-AI_Food-for-thoughts.html).**
   A paper from the work stream “Smarter Together: Artificial Intelligence”
   of the G7 Cybersecurity Working Group.
   Discussed the properties and minimum elements, as well as the next steps
