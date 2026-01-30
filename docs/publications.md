@@ -179,7 +179,12 @@ There is a growing number of communities in this space, including:
   *[A shared G7 Vision on Software Bill of Materials for Artificial Intelligence](https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/KI/SBOM-for-AI_Food-for-thoughts.html)*
   on 12 June 2025. The paper discussed the properties and minimum elements,
   as well as the next steps within the G7 workstream towards a practical
-  implementation. 
+  implementation.
+
+For resources about SBOM in general,
+the **[SBOM-Everywhere Wiki](https://sbom-catalog.openssf.org/)**
+the OpenSSF SBOM Everywhere SIG provides
+SBOM catalog and guidances on SBOM types, naming, and compliance.
 
 ---
 
