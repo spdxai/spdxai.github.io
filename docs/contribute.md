@@ -46,6 +46,19 @@ If you're conducting research related to SPDX AI profiles or AI BOM:
 
 See our [publications](./publications.md) page for key papers and resources.
 
+## SPDX logos and brand guide
+
+- SPDX logos are available at [spdx/outreach][outreach] repo
+- SPDX brand font is [Archivo][], an open source font from Google
+- For non-Latin scripts, uses [Noto][], also an open source font from Google
+
+Read the [SPDX brand guide][brand-guide] for full details.
+
+[outreach]: https://github.com/spdx/outreach/tree/main/assets
+[archivo]: https://fonts.google.com/specimen/Archivo
+[noto]: https://fonts.google.com/noto
+[brand-guide]: https://github.com/spdx/outreach/blob/main/assets/SPDX_Brand_Guidelines.pdf
+
 ---
 
 [Back to Home](./index.md){ .md-button }
