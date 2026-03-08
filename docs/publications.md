@@ -47,7 +47,7 @@ the Working Group releases publications covering usage guidance and design ratio
 Presentations and talks on SPDX AI and Dataset profiles and other works from
 the SPDX AI Working Group:
 
-- **[What's new in SPDX 3.1: Supporting a Living Knowledge Graph][spdx31-fosdem2026]**
+- **[What's new in SPDX 3.1: Supporting a living knowledge graph][spdx31-fosdem2026]**
     by Karen Bennet
     at FOSDEM 2026,
     1 February 2026.
