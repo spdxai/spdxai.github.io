@@ -14,17 +14,6 @@ SPDX and SBOM standards.
 In addition to the SPDX AI and Dataset profiles,
 the Working Group releases publications covering usage guidance and design rationale.
 
-- **[Implementing AI bill of materials (AI BOM) with SPDX 3.0: A comprehensive guide to creating AI and dataset bill of materials][aibom2024]**
-
-    Explores the concept of AI BOM and how to use AI and Dataset profiles in
-    SPDX 3.0 to document AI systems and datasets.
-
-    > Karen Bennet, Gopi Krishnan Rajbahadur,
-    > Arthit Suriyawongkul, and Kate Stewart,
-    > “Implementing AI Bill of Materials (AI BOM) with SPDX 3.0:
-    > A Comprehensive Guide to Creating AI and Dataset Bill of Materials”,
-    > The Linux Foundation, October 2024. <https://doi.org/10.70828/RNED4427>.
-
 - **[Building an open AIBOM standard in the wild: An experience report on extending the SPDX SBOM (ISO/IEC 5962:2021) for AI supply chains][seip2026-pre]**
 
     Documenting the experiences, design decisions, and lessons learned
@@ -38,66 +27,44 @@ the Working Group releases publications covering usage guidance and design ratio
 
     *Accepted for the [Software Engineering in Practice (SEIP) track][seip2026] of IEEE/ACM International Conference on Software Engineering 2026.*
 
-[aibom2024]: https://www.linuxfoundation.org/research/ai-bom
+- **[Implementing AI bill of materials (AI BOM) with SPDX 3.0: A comprehensive guide to creating AI and dataset bill of materials][aibom2024]**
+
+    Explores the concept of AI BOM and how to use AI and Dataset profiles in
+    SPDX 3.0 to document AI systems and datasets.
+
+    > Karen Bennet, Gopi Krishnan Rajbahadur,
+    > Arthit Suriyawongkul, and Kate Stewart,
+    > “Implementing AI Bill of Materials (AI BOM) with SPDX 3.0:
+    > A Comprehensive Guide to Creating AI and Dataset Bill of Materials”,
+    > The Linux Foundation, October 2024. <https://doi.org/10.70828/RNED4427>.
+
 [seip2026-pre]: https://arxiv.org/abs/2510.07070
 [seip2026]: https://conf.researchr.org/details/icse-2026/icse-2026-software-engineering-in-practice/61/Building-an-Open-AIBOM-Standard-in-the-Wild-An-Experience-Report-on-Extending-the-SP
+[aibom2024]: https://www.linuxfoundation.org/research/ai-bom
 
 ## Presentations
 
 Presentations and talks on SPDX AI and Dataset profiles and other works from
 the SPDX AI Working Group:
 
-- **[Software bill of materials for AI software](https://youtu.be/AnK9u2zGM14)**
-    by Gopi Krishnan Rajbahadur and King Gao
-    at Open Source Summit Europe 2023,
-    18 September 2023.
+- **[What's new in SPDX 3.1: Supporting a Living Knowledge Graph][spdx31-fosdem2026]**
+    by Karen Bennet
+    at FOSDEM 2026,
+    1 February 2026.
 
-    The idea behind SPDX 3.0 AI and Dataset profiles. Why model cards and
-    datasheets are not enough?
+    A summary of new profiles (Functional Safety, Hardware, Operations,
+    Service, and Supply Chain) based on the SPDX 3.1 Release Candidate 1.
+    Also features the SPDX Cryptographic Algorithms List and the
+    Knowledge Graph Explorer.
 
-- **[How to make SPDX industry standard for AI/ML](https://archive.fosdem.org/2024/schedule/event/fosdem-2024-3169-how-to-make-spdx-industry-standard-for-ai-ml/)**
-    by Cheuk Ting Ho
-    at FOSDEM 2024,
-    4 February 2024.
-
-    Although this talk predates the SPDX 3.0 final release, it provides
-    insights into the motivations for the SPDX AI BOM and the roadmap for
-    community adoption.
-
-- **[Accountability taxonomy for AI software bill of materials](https://ossna2024.sched.com/event/1aBNk/accountability-taxonomy-for-ai-software-bill-of-materials-arthit-suriyawongkul-adapt-centre-trinity-college-dublin)**
+- **[PSF adopts SPDX for Software Bill of Materials, will you?](https://docs.google.com/presentation/d/1eE-ELUof8eQ4QjUWC4r4EHNRU1En4F_i1mkDA51N5rM/edit?usp=sharing)**
     by Arthit Suriyawongkul
-    at Open Source Summit North America 2024,
-    16 April 2024.
+    at PyCon Ireland 2025,
+    15 November 2025.
 
-    Provides an overview mapping of EU AI Act informational requirements
-    (focused on the market-entry obligations) to SPDX 3.0 data model.
-
-- **[SPDX 3.0 now supports SBOMs for AI applications](https://youtu.be/q2gl3f1nVZs).**
-    Interview with Kate Stewart,
-    TFIR podcast,
-    9 May 2024.
-
-    “The challenge we were seeing with the supply chain is that it isn't just
-    software and hardware anymore, it's now realistically data.”
-
-- **[From complexity to clarity: Addressing challenges in AI BOMs for compliance](https://ossaidevjapan24.sched.com/event/1jKEj/from-complexity-to-clarity-addressing-challenges-in-ai-boms-for-compliance-gopi-krishnan-rajbahadur-queens-university-kate-stewart-the-linux-foundation)**
-    by Gopi Krishnan Rajbahadur and Kate Stewart
-    at Open Source Summit Japan 2024,
-    29 October 2024.
-
-    Best practices and strategies to improve AI BOM accuracy and utility,
-    equipping professionals with the insights to ensure their AI applications
-    are compliant and prepared for future regulations.
-
-- **[SPDX: Tackling system risk in modern supply chains](https://pytorchconference.sched.com/event/2AJ9O)**
-    by Kate Stewart and Gary O'Neall
-    at PyTorch Conference 2025,
-    22 October 2025.
-
-    Go through the key aspects in SPDX 3.0 that enable AI systems and the data
-    used to train the systems to be made transparent, so proper system level
-    risk analysis for licensing, security, and data biases in model training
-    can be performed.
+    A lightning talk that quickly go through what is SBOM, how Python Software
+    Foundation uses it, relevant PEPs, the minimum elements, the AI SBOM,
+    and Python tools for SPDX.
 
 - **[Trust, track, and verify: Securing AI pipelines end-to-end](https://colocatedeventsna2025.sched.com/event/28D03/trust-track-and-verify-securing-ai-pipelines-end-to-end-adolfo-garcia-carabiner-systems-jun-victor-lu-independent)**
     by Adolfo Garcia & Jun (Victor) Lu
@@ -109,16 +76,61 @@ the SPDX AI Working Group:
     from CoSAI’s supply chain framework; and Unified AI-Ops practices across
     MLOps, DataOps, SecOps, and AgentOps.
 
-- **[PSF adopts SPDX for Software Bill of Materials, will you?](https://docs.google.com/presentation/d/1eE-ELUof8eQ4QjUWC4r4EHNRU1En4F_i1mkDA51N5rM/edit?usp=sharing)**
-    by Arthit Suriyawongkul
-    at PyCon Ireland 2025,
-    15 November 2025.
+- **[SPDX: Tackling system risk in modern supply chains](https://pytorchconference.sched.com/event/2AJ9O)**
+    by Kate Stewart and Gary O'Neall
+    at PyTorch Conference 2025,
+    22 October 2025.
 
-    A lightning talk that quickly go through what is SBOM, how Python Software
-    Foundation uses it, relevant PEPs, the minimum elements, the AI SBOM,
-    and Python tools for SPDX.
+    Go through the key aspects in SPDX 3.0 that enable AI systems and the data
+    used to train the systems to be made transparent, so proper system level
+    risk analysis for licensing, security, and data biases in model training
+    can be performed.
+
+- **[From complexity to clarity: Addressing challenges in AI BOMs for compliance](https://ossaidevjapan24.sched.com/event/1jKEj/from-complexity-to-clarity-addressing-challenges-in-ai-boms-for-compliance-gopi-krishnan-rajbahadur-queens-university-kate-stewart-the-linux-foundation)**
+    by Gopi Krishnan Rajbahadur and Kate Stewart
+    at Open Source Summit Japan 2024,
+    29 October 2024.
+
+    Best practices and strategies to improve AI BOM accuracy and utility,
+    equipping professionals with the insights to ensure their AI applications
+    are compliant and prepared for future regulations.
+
+- **[SPDX 3.0 now supports SBOMs for AI applications](https://youtu.be/q2gl3f1nVZs).**
+    Interview with Kate Stewart,
+    TFIR podcast,
+    9 May 2024.
+
+    “The challenge we were seeing with the supply chain is that it isn't just
+    software and hardware anymore, it's now realistically data.”
+
+- **[Accountability taxonomy for AI software bill of materials](https://ossna2024.sched.com/event/1aBNk/accountability-taxonomy-for-ai-software-bill-of-materials-arthit-suriyawongkul-adapt-centre-trinity-college-dublin)**
+    by Arthit Suriyawongkul
+    at Open Source Summit North America 2024,
+    16 April 2024.
+
+    Provides an overview mapping of EU AI Act informational requirements
+    (focused on the market-entry obligations) to SPDX 3.0 data model.
+
+- **[How to make SPDX industry standard for AI/ML](https://archive.fosdem.org/2024/schedule/event/fosdem-2024-3169-how-to-make-spdx-industry-standard-for-ai-ml/)**
+    by Cheuk Ting Ho
+    at FOSDEM 2024,
+    4 February 2024.
+
+    Although this talk predates the SPDX 3.0 final release, it provides
+    insights into the motivations for the SPDX AI BOM and the roadmap for
+    community adoption.
+
+- **[Software bill of materials for AI software](https://youtu.be/AnK9u2zGM14)**
+    by Gopi Krishnan Rajbahadur and King Gao
+    at Open Source Summit Europe 2023,
+    18 September 2023.
+
+    The idea behind SPDX 3.0 AI and Dataset profiles. Why model cards and
+    datasheets are not enough?
 
 See more SPDX presentations at [SPDX Outreach resources](https://github.com/spdx/outreach/blob/main/SPDX-presentations.md).
+
+[spdx31-fosdem2026]: ./assets/20260201-spdx31-fosdem.pdf
 
 ## Citations
 
