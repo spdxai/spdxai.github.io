@@ -10,7 +10,7 @@ The SPDX AI Working Group develops and maintains two SPDX 3 profiles:
 AI and Dataset.
 
 The stable SPDX 3.0 AI and Dataset profiles can be found at:
-<https://spdx.github.io/spdx-spec/v3.0.1/>.
+<https://spdx.github.io/spdx-spec/v3.0/>.
 
 The work-in-progress SPDX 3.1-RC1 AI and Dataset profiles can be found at:
 <https://spdx.github.io/spdx-spec/v3.1-RC1/>.
