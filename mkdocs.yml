@@ -1,24 +1,55 @@
-# SPDX-FileCopyrightText: 2025-2026 SPDX contributors
-# SPDX-FileContributor: SPDX AI Working Group and its Contributors
+# SPDX-FileCopyrightText: Working Group Contributors
 # SPDX-FileType: SOURCE
 # SPDX-License-Identifier: Apache-2.0
 
-site_name: SPDX AI Working Group
-site_description: The technical working group contributing to AI and data standards for the SPDX specification. Resources and updates from the working group.
-site_author: SPDX AI Working Group
-copyright: SPDX AI Working Group. Content is released under <a href="https://spdx.org/licenses/CC0-1.0.html">Creative Commons Zero v1.0 Universal</a> public domain dedication.
-site_url: https://spdxai.github.io/
-repo_url: https://github.com/spdxai/spdxai.github.io
-repo_name: spdxai/spdxai.github.io
+# ===========================================================================
+# TODO: Customize the values below for your working group.
+# Search for "[CUSTOMIZE]" to find all lines that need your attention.
+# ===========================================================================
+
+# [CUSTOMIZE] Replace with your working group's full name
+site_name: Working Group Name
+
+# [CUSTOMIZE] Replace with a brief description of your working group
+site_description: The technical working group for [topic]. Resources and updates from the working group.
+
+# [CUSTOMIZE] Replace with your working group's name
+site_author: Working Group Name
+
+# [CUSTOMIZE] Update the copyright holder name; the CC0-1.0 license is recommended for open working group content
+copyright: Working Group Contributors. Content is released under <a href="https://spdx.org/licenses/CC0-1.0.html">Creative Commons Zero v1.0 Universal</a> public domain dedication.
+
+# [CUSTOMIZE] Replace with your GitHub Pages URL: https://YOUR-ORG.github.io/
+site_url: https://YOUR-ORG.github.io/
+
+# [CUSTOMIZE] Replace with your repository URL: https://github.com/YOUR-ORG/YOUR-REPO
+repo_url: https://github.com/YOUR-ORG/YOUR-REPO
+
+# [CUSTOMIZE] Replace with YOUR-ORG/YOUR-REPO
+repo_name: YOUR-ORG/YOUR-REPO
+
 edit_uri: edit/main/docs/
 
 use_directory_urls: true
 
 theme:
   name: material
+
+  # [CUSTOMIZE] Place your favicon at docs/img/favicon.png, or remove this line to use the default
   favicon: img/favicon.png
-  logo: img/spdx-logo-white.svg
+
+  # [CUSTOMIZE] Logo options (choose one):
+  #   Option A - Use a Material icon (no image file needed):
+  #     icon:
+  #       logo: material/home
+  #   Option B - Use your own logo image (place it at docs/img/logo.svg):
+  #     logo: img/logo.svg
+  #   Option C - Remove both options to show the site name as text
+  icon:
+    logo: material/home
+
   palette:
+    # [CUSTOMIZE] See https://squidfunk.github.io/mkdocs-material/setup/changing-colors/
     # Palette toggle for light mode
     - scheme: default
       primary: teal
@@ -30,6 +61,7 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
+
   features:
     - content.action.edit
     - content.code.copy
@@ -56,12 +88,13 @@ markdown_extensions:
       alternate_style: true
   - tables
 
+# [CUSTOMIZE] Update the navigation titles and add/remove pages to match your content
 nav:
   - Home: index.md
-  - profiles.md
-  - examples.md
-  - publications.md
-  - contribute.md
+  - Technical Work: work.md
+  - Resources: resources.md
+  - News: news.md
+  - Contribute: contribute.md
 
 plugins:
   - git-revision-date-localized: # Use mkdocs-git-revision-date-localized-plugin
@@ -73,5 +106,6 @@ plugins:
 
 extra:
   social:
+    # [CUSTOMIZE] Replace with your organization's GitHub URL
     - icon: fontawesome/brands/github
-      link: https://github.com/spdxai
+      link: https://github.com/YOUR-ORG

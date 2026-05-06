@@ -1,63 +1,79 @@
 ---
-SPDX-FileContributor: SPDX AI Working Group and its Contributors
+SPDX-FileContributor: Working Group Contributors
 SPDX-FileType: DOCUMENTATION
 SPDX-License-Identifier: CC0-1.0
 ---
 
+<!-- TODO: Update this page with your working group's actual meeting schedule,
+     community channels, and contribution guidelines. -->
+
 # Contribute
 
 We welcome participation from all interested parties.
-Join our meetings, contribute to discussions, and help shape the future of
-AI transparency standards.
+Join our meetings, contribute to discussions, and help shape [your working group's mission].
 
-## Weekly meetings
+## Meetings
 
-The SPDX AI Working Group holds weekly meetings to discuss progress,
+<!-- TODO: Update with your actual meeting schedule and links. -->
+
+The [Working Group Name] holds [weekly/biweekly/monthly] meetings to discuss progress,
 review proposals, and coordinate activities.
-All meeting minutes are publicly available for transparency and community
-engagement.
+All meeting minutes are publicly available for transparency and community engagement.
 
-- [Meeting schedule and conference call link](https://github.com/spdx/meetings/?tab=readme-ov-file#ai-and-dataset-profiles)
-- [Live meeting minutes](https://docs.google.com/document/d/1Q2a2HAV_ipbPhV6pqWWqzxYjBaTKtIW7H_CfAFF0kek/edit?tab=t.0)
-- [Archive of approved meeting minutes](https://github.com/spdx/meetings/tree/main/ai)
+- [Meeting schedule and call link](https://example.org/meeting-schedule)
+- [Live meeting notes](https://example.org/meeting-notes)
+- [Archive of past meeting minutes](https://example.org/meeting-archive)
 
 Feel free to add topics to the agenda by editing the live document.
 
 ## Community
 
-The SPDX AI Working Group is part of the larger SPDX community,
-supported by the Linux Foundation.
+<!-- TODO: Update with your actual community channels.
+     Remove or add channels as appropriate. -->
+
+The [Working Group Name] is part of [Parent Organization].
 We collaborate with industry leaders, researchers, and open source communities
-to develop practical and widely-adopted standards.
+to develop practical and widely-adopted [standards/specifications/guidelines].
 
-For more information, visit the SPDX website at <https://spdx.dev/>.
+For more information, visit [the parent organization's website](https://example.org/).
 
-- Mailing list: Join `spdx-ai` subgroup at <https://lists.spdx.org/g/spdx-ai>.
-- Slack: Join `#spdx-ai` channel on <https://spdx.slack.com/>.
+- Mailing list: [your mailing list](https://example.org/mailing-list)
+- Chat: [your Slack/Discord/Matrix channel](https://example.org/chat)
 
-## Contributing research
+## Contributing to this website
 
-If you're conducting research related to SPDX AI profiles or AI BOM:
+The easiest way to edit any existing page on the website
+is to click on the "Edit this page" icon at the top right of each page.
 
-1. **Share your work** - Let the community know about your research
-2. **Collaborate** - Connect with other researchers and practitioners
-3. **Present at meetings** - Share findings at working group meetings
-4. **Contribute to standards** - Help improve SPDX specifications
+If you would like to improve the website or add content:
 
-See our [publications](./publications.md) page for key papers and resources.
+1. Fork the repository
+2. Create a new branch for your changes
+3. Make your changes
+4. Submit a pull request
 
-## SPDX logos and brand guide
+Once the pull request is merged to the `main` branch,
+the changes will be automatically deployed to the live website.
 
-- SPDX logos are available at [spdx/outreach][outreach] repo
-- SPDX brand font is [Archivo][], an open source font from Google
-- For non-Latin scripts, uses [Noto][], also an open source font from Google
+## Contributing to the technical work
 
-Read the [SPDX brand guide][brand-guide] for full details.
+<!-- TODO: Update with the actual contribution process for your core deliverables. -->
 
-[outreach]: https://github.com/spdx/outreach/tree/main/assets
-[archivo]: https://fonts.google.com/specimen/Archivo
-[noto]: https://fonts.google.com/noto
-[brand-guide]: https://github.com/spdx/outreach/blob/main/assets/SPDX_Brand_Guidelines.pdf
+If you would like to contribute to [core deliverables, e.g., specifications or guidelines]:
+
+1. **Join the conversation** — Participate in meetings and mailing list discussions
+2. **Raise issues** — Open issues in the relevant GitHub repository
+3. **Submit pull requests** — Propose specific changes to documents or code
+4. **Review proposals** — Provide feedback on open pull requests and issues
+5. **Share your work** — Present use cases, research, or implementations at meetings
+
+## Brand and style guide
+
+<!-- TODO: Update or remove this section.
+     If your parent organization has logos and brand guidelines, link to them here. -->
+
+- Logos are available at [your organization's outreach repo](https://example.org/logos)
+- See the [brand guide](https://example.org/brand-guide) for full details
 
 ---
 
