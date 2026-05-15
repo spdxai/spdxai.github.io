@@ -192,6 +192,7 @@ There is a growing number of communities in this space, including:
   on 12 June 2025. The paper discussed the properties and minimum elements,
   as well as the next steps within the G7 workstream towards a practical
   implementation.
+  On 12 May 2026, it published [SBOM for AI - Minimum Elements](https://github.com/spdxai/spdxai.github.io/blob/main/docs/assets/g7-sbom-for-ai-minimum-elements-20260512.pdf) document.
 
 For resources about SBOM in general,
 the **[SBOM-Everywhere Wiki](https://sbom-catalog.openssf.org/)**
