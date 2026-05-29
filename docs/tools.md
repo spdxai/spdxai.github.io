@@ -14,12 +14,15 @@ Explore tools developed by SPDX projects and members of the SPDX AI Working Grou
   More tools and utilities from SPDX.
 - **[SPDX Online Tools](https://tools.spdx.org/)**:
   A web-based interface for managing SBOMs and license information.
-- **[BOM Tools](https://github.com/rgopikrishnan91/aibom)** (beta):
+- **[AIkaBoOM](https://github.com/rgopikrishnan91/aikaboom)** (beta):
   Extracts metadata from Hugging Face, GitHub, and arXiv,
-  utilizing LLMs to automatically populate structured BOM fields.
+  uses an LLM to populate structured BOM fields,
+  and flags conflicts when sources disagree.
 - **[Pitloom](https://github.com/bact/pitloom)** (beta):
-  Generates SBOMs for Python projects. Extracts metadata directly
-  from AI model files (GGUF, ONNX, PyTorch, Safetensors, etc).
+  Generates SBOMs for Python projects and AI models.
+  Extracts metadata directly from AI model files
+  (GGUF, ONNX, PyTorch, Safetensors, etc).
+  Extracts metadata from Hugging Face Hub.
   Supports Hatchling build hooks.
 
 ---
